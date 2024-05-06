@@ -1,0 +1,30 @@
+name: Dependabot-Test
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  dependabot-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.0.0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5.0.0
+        with:
+          python-version: "3.10"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4.0.0
+        with:
+          node-version: "20"
+
+      - name: Set up Java
+        uses: actions/setup-java@v4.0.0
+        with:
+          distribution: "zulu"
+          java-version: "20"
+          architecture: "x64"
