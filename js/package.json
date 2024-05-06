@@ -8,7 +8,7 @@
     "highlight.js": "11.9.0",
     "jquery": "3.7.0",
     "marked": "12.0.0",
-    "electron": "20.3.12",
+    "electron": "30.0.2",
     "@electron/remote": "2.1.2"
   }
 }
