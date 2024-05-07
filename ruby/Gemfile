@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "ffi", "1.16.0"
+gem "ffi", "1.16.3"
 gem "i18n", "1.14.0"
 gem "json", "2.7.0"
 gem "kramdown", "2.4.0"
