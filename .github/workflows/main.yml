@@ -37,3 +37,30 @@ jobs:
           target: "desktop"
           install-deps: "true"
           cache: "false"
+  
+  js:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git Clone
+        uses: actions/checkout@v4.1.5
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4.0.2
+        with:
+          node-version: "20"
+
+      - name: Install
+        run: |
+          cd js
+          npm install
+  
+  ruby:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git Clone
+        uses: actions/checkout@v4.1.5
+
+      - name: Install
+        run: |
+          cd ruby
+          bundle install
