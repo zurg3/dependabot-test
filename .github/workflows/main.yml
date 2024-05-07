@@ -63,4 +63,5 @@ jobs:
       - name: Install
         run: |
           cd ruby
+          gem install bundler
           bundle install
