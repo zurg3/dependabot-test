@@ -60,6 +60,11 @@ jobs:
       - name: Git Clone
         uses: actions/checkout@v4.1.5
 
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1.176.0
+        with:
+          ruby-version: "3.0"
+
       - name: Install
         run: |
           cd ruby
