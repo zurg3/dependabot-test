@@ -4,11 +4,17 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+      time: "12:00"
+      timezone: "Europe/Moscow"
   - package-ecosystem: "npm"
     directory: "/js"
     schedule:
       interval: "daily"
+      time: "12:00"
+      timezone: "Europe/Moscow"
   - package-ecosystem: "bundler"
     directory: "/ruby"
     schedule:
       interval: "daily"
+      time: "12:00"
+      timezone: "Europe/Moscow"
