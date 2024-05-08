@@ -18,3 +18,9 @@ updates:
       interval: "daily"
       time: "12:00"
       timezone: "Europe/Moscow"
+  - package-ecosystem: "pip"
+    directory: "/python"
+    schedule:
+      interval: "daily"
+      time: "12:00"
+      timezone: "Europe/Moscow"
