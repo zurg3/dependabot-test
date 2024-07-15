@@ -1,6 +1,6 @@
 future==1.0.0
 jedi==0.19.1
-matplotlib==3.9.0
+matplotlib==3.9.1
 numpy==2.0.0
 pyinstaller==6.9.0
 setuptools==70.3.0
