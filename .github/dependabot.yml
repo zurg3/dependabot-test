@@ -14,6 +14,9 @@ updates:
       day: "monday"
       time: "12:00"
       timezone: "Europe/Moscow"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-patch"]
   - package-ecosystem: "bundler"
     directory: "/ruby"
     schedule:
@@ -21,6 +24,9 @@ updates:
       day: "monday"
       time: "12:00"
       timezone: "Europe/Moscow"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-patch"]
   - package-ecosystem: "pip"
     directory: "/python"
     schedule:
@@ -28,3 +34,6 @@ updates:
       day: "monday"
       time: "12:00"
       timezone: "Europe/Moscow"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-patch"]
