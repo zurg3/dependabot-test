@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "ffi", "1.17.0"
-gem "github-linguist", "7.30.0"
+gem "github-linguist", "8.0.0"
 gem "i18n", "1.14.5"
 gem "json", "2.7.2"
 gem "kramdown", "2.4.0"
