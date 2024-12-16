@@ -12,7 +12,7 @@
     "highlight.js": "11.10.0",
     "jake": "10.9.2",
     "jquery": "3.7.1",
-    "marked": "14.1.0",
+    "marked": "15.0.4",
     "quill": "2.0.2",
     "video.js": "8.18.0"
   }
