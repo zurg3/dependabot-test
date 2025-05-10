@@ -1,9 +1,9 @@
 name: Dependabot-Test
 env:
-  PYTHON_VERSION: "3.10"
+  PYTHON_VERSION: "3.12"
   NODE_VERSION: "20"
   JAVA_VERSION: "20"
-  RUBY_VERSION: "3.3"
+  RUBY_VERSION: "3.4"
   QT_VERSION: "6.7.0"
 
 on:
