@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "zurg3",
   "dependencies": {
-    "@editorjs/editorjs": "2.30.5",
+    "@editorjs/editorjs": "2.31.0",
     "@electron/remote": "2.1.2",
     "bootstrap": "5.3.3",
     "clipboard": "2.0.11",
