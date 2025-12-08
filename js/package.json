@@ -8,7 +8,7 @@
     "bootstrap": "5.3.8",
     "clipboard": "2.0.11",
     "electron": "39.2.4",
-    "express": "5.1.0",
+    "express": "5.2.1",
     "highlight.js": "11.11.1",
     "jake": "10.9.4",
     "jquery": "3.7.1",
