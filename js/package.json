@@ -11,7 +11,7 @@
     "express": "5.2.1",
     "highlight.js": "11.11.1",
     "jake": "10.9.4",
-    "jquery": "3.7.1",
+    "jquery": "4.0.0",
     "marked": "17.0.1",
     "quill": "2.0.3",
     "video.js": "8.23.4"
