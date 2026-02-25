@@ -5,35 +5,17 @@ updates:
     schedule:
       interval: "weekly"
       day: "monday"
-      time: "12:00"
+      time: "10:00"
       timezone: "Europe/Moscow"
   - package-ecosystem: "npm"
     directory: "/js"
     schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "12:00"
-      timezone: "Europe/Moscow"
-    ignore:
-      - dependency-name: "*"
-        update-types: ["version-update:semver-patch"]
+      interval: "monthly"
   - package-ecosystem: "bundler"
     directory: "/ruby"
     schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "12:00"
-      timezone: "Europe/Moscow"
-    ignore:
-      - dependency-name: "*"
-        update-types: ["version-update:semver-patch"]
+      interval: "monthly"
   - package-ecosystem: "pip"
     directory: "/python"
     schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "12:00"
-      timezone: "Europe/Moscow"
-    ignore:
-      - dependency-name: "*"
-        update-types: ["version-update:semver-patch"]
+      interval: "monthly"
