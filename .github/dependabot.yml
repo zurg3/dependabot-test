@@ -13,18 +13,24 @@ updates:
       interval: "monthly"
     ignore:
       - dependency-name: "*"
-        update-types: ["version-update:semver-patch"]
+        update-types:
+          - "version-update:semver-minor"
+          - "version-update:semver-patch"
   - package-ecosystem: "bundler"
     directory: "/ruby"
     schedule:
       interval: "monthly"
     ignore:
       - dependency-name: "*"
-        update-types: ["version-update:semver-patch"]
+        update-types:
+          - "version-update:semver-minor"
+          - "version-update:semver-patch"
   - package-ecosystem: "pip"
     directory: "/python"
     schedule:
       interval: "monthly"
     ignore:
       - dependency-name: "*"
-        update-types: ["version-update:semver-patch"]
+        update-types:
+          - "version-update:semver-minor"
+          - "version-update:semver-patch"
