@@ -10,7 +10,7 @@
     "electron": "44.0.0",
     "express": "5.2.1",
     "highlight.js": "11.11.1",
-    "jake": "12.10.1",
+    "jake": "13.0.3",
     "jquery": "4.0.0",
     "marked": "18.0.5",
     "quill": "2.0.3",
